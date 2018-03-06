@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css?family=Lalezar');
+@import url('https://fonts.googleapis.com/css?family=Viga');
+@import url('https://fonts.googleapis.com/css?family=Passion+One');
+
+body {
+    background-color: rgb(52, 52, 52);
+}
+.frame {
+    padding: 0px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    -webkit-box-shadow: 0px 0px 17px 2px rgba(0,0,0,0.7);
+    -moz-box-shadow: 0px 0px 17px 2px rgba(0,0,0,0.7);
+    box-shadow: 0px 0px 17px 2px rgba(0,0,0,0.7);
+}
+.nav ul {
+    margin-bottom: 0px;
+}
+.nav li {
+    color: white;
+    display: inline-block;
+    list-style-type: none;
+    padding-right: 60px;
+    font-size: 1.2rem;
+}
+.nav {
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.logo {
+    margin-top: 70px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+.section {
+    color: white;
+    padding-top: 20px;
+    -webkit-box-shadow: inset 0px 0px 72px 0px rgba(0,0,0,0.34);
+    -moz-box-shadow: inset 0px 0px 72px 0px rgba(0,0,0,0.34);
+    box-shadow: inset 0px 0px 72px 0px rgba(0,0,0,0.34);
+}
+.content-1 {
+    background-color: rgb(123,123,123)
+}
+.content-2 {
+    background-color: rgb(95, 95, 95);
+}
+.content-3 {
+    background-color: rgb(64,64,64);
+}
+.content-4 {
+    background-color: rgb(48, 48, 48);
+}
+.content p {
+    padding-top: 10px;
+}
+.row {
+    align-items: center;
+}
+.col-8 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.col-8 h1 {
+    font-size: 3.2rem;
+    padding-left: 20%;
+    vertical-align: middle;
+}
+.text {
+    font-size: 1.4rem;
+    padding-left: 20%;
+    vertical-align: middle;
+}
+.btn {
+    background-color: transparent;
+    border: 2px solid;
+    border-radius: 0px;
+    border-color: white;
+    color: white;
+    width: 100px;
+    margin-left: 20%;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+.btn:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgb(255, 255, 255);
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 0 50%;
+    transform-origin: 0 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+  .btn:hover, .btn:focus, .btn:active {
+    color: rgb(111, 111, 111);
+      cursor: pointer;
+  }
+  .btn:hover:before, .btn:focus:before, .btn:active:before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+.col img{
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+.col img:hover, .col img:focus, .col img:active {
+    -webkit-transform: rotate(6deg);
+    transform: rotate(6deg);
+}
+.color-sc2 {
+ background-color: rgb(95, 95, 95);
+    -webkit-box-shadow: inset 0px 0px 72px 0px rgba(0,0,0,0.34);
+    -moz-box-shadow: inset 0px 0px 72px 0px rgba(0,0,0,0.34);
+    box-shadow: inset 0px 0px 72px 0px rgba(0,0,0,0.34);
+}
+/******************************PREDMETI*********************************************/
+.wrapper {
+    display: block;
+    align-content: center;
+    margin-top: 100px;
+    padding: 25px;
+    padding-top: 30px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 110px;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 0px 17px 2px rgba(0,0,0,0.7);
+    -moz-box-shadow: 0px 0px 17px 2px rgba(0,0,0,0.7);
+    box-shadow: 0px 0px 17px 2px rgba(0,0,0,0.7);
+
+}
+.group-item {
+    color: white;
+    display: block;
+    margin-bottom: -30px;
+}
+.group:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.pan-it {
+    display: inline-block;
+    background-color: rgba(62, 62, 62, 0.89);
+    line-height: 16px;
+    width: 25%;
+    margin: 0;
+    padding: 0;
+    border-bottom: 3px solid #555555;
+    border-right: 3px solid #555555;
+}
+.pan-it,
+.btn-3{
+    text-decoration: none;
+    color: #bbbbbb;
+}
+.pan-it:hover,
+.btn-3:hover{
+    text-decoration: none;
+    color: #dadada;
+    background-color: #333333;
+    transition: all 0.3s ease 0s;
+}
+a h2 {
+    color: White;
+}
+.left {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 8px;
+    padding-right: 8px;
+    display: table-cell;
+    vertical-align: middle;
+    width: 40px;
+}
+.right {
+    font-size: 15px;
+    padding-left: 6px;
+    padding-right: 10px;
+    display: table-cell;
+    vertical-align: middle;
+    width: auto;
+}
+#sect-wep, #sect-con, #sect-ite,
+#sect-res, #sect-att, #sect-too,
+#sect-med, #sect-foo, #sect-amu,
+#sect-tra, #sect-com, #sect-msc {
+    padding-top: 60px;
+}
+/***----------------------------------------------------***/
+.slick-top{
+    height: 400px;
+}
+.slider {
+    width: auto;
+    margin: 30px 50px 50px;
+}
+
+.slick-slide {
+    color: white;
+    padding: 40px 0;
+    font-size: 30px;
+    text-align: center;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: black;
+}
+
+.slick-dots {
+    bottom: -30px;
+}
+
+.btn-3 {
+    font-family: 'Viga', sans-serif;
+    font-size: 1.3rem;
+}
+
+.btn-3:hover,
+.btn-3:active,
+.btn-3:focus {
+    font-family: 'Viga', sans-serif;
+    font-size: 1.3rem;
+    color: white;
+}
+/*    Button style
+
+.btn-3 {
+    background-color: rgba(76, 76, 76, 0.69);
+    padding: 12px 25px 12px 25px;
+    color: #b7b7b7;
+    -webkit-box-shadow: 0px 5px 24px 8px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 5px 24px 8px rgba(0,0,0,0.15);
+    box-shadow: 0px 5px 24px 8px rgba(0,0,0,0.15);
+}
+
+.btn-3:hover {
+    background-color: #3c3c3c;
+    padding: 12px 25px 12px 25px;
+    color: whitesmoke;
+    -webkit-box-shadow: inset 0px 5px 24px 8px rgba(0,0,0,0.29);
+    -moz-box-shadow: inset 0px 5px 24px 8px rgba(0,0,0,0.29);
+    box-shadow: inset 0px 5px 24px 8px rgba(0,0,0,0.29);
+    transition: 0.5s ease-in-out;
+}
+
+*/
+/************Mapa*******************/
+.map {
+    padding: 5%;
+}
+/************Server*************/
+.custom {
+    font-size: 2rem;
+    color: white;
+    height: 200px;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+}
+
+.card-body-icon {
+    float: right;
+}
+
+.card {
+    -webkit-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
+    background-image: url(../img/pattern.png);
+}
+
+.mr-5 {
+    font-weight: 600;
+    font-size: 3.4rem;
+}
+
+.mr-6 {
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 55px;
+}
+
+.bg-info {
+    background-color: #6a6464!important;
+}
+
+.row:nth-of-type(2) {
+    margin-top: 30px;
+}
+
+.chart-frame {
+    height: 400px;
+}
+
+.font-custom {
+    font-size: 2rem;
+}
+
+.last {
+    height: 100px;
+    margin-top: 40px;
+}
+
+.tile-dash-left {
+     padding-left: 0px;
+ }
+
+.tile-dash-right {
+    padding-right: 0px;
+}
+
+canvas{
+    width: 1150px; !important;
+    height:400px !important;
+}
+
+.navbar-light {
+    -webkit-box-shadow: 0px 12px 30px 0px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0px 12px 30px 0px rgba(0,0,0,0.4);
+    box-shadow: 0px 12px 30px 0px rgba(0,0,0,0.4);
+}
+
+.nav-link {
+    font-family: 'Viga', sans-serif;
+    font-size: 1.3rem;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #bbbbbb;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(126, 126, 126);
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:active,
+.navbar-light .navbar-nav .nav-link:focus
+{
+    color: rgb(243, 243, 243);
+    transition: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+
+.nav-item {
+    padding-left: 15px;
+}

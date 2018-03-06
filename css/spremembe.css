@@ -1,0 +1,118 @@
+body {
+    background-color: #806a53;
+    background-image: url(../img/noise.png);
+    color: white;
+}
+
+.wrapper {
+    margin-top: 130px;
+    margin-left: 180px;
+    margin-right: 40%;
+    border-radius: 5px;
+}
+
+.okvir {
+   margin-bottom: 40px;
+    background-color: rgba(0, 0, 0, 0.253);
+    border-radius: 5px;
+    padding: 10px;
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.6);
+    box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.6);
+}
+
+.novo {
+    width: 100px;
+    height: 25px;
+    margin-bottom: 1px;
+    text-align: center;
+    border: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    background-color: #6e9457;
+    font-size: 11px;
+}
+
+.info {
+    width: 100px;
+    height: 25px;
+    margin-bottom: 1px;
+    text-align: center;
+    border: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 11px;
+    color: #ffffff;
+    background-color: #459baf;
+}
+
+.fixed {
+    width: 100px;
+    height: 25px;
+    margin-bottom: 1px;
+    text-align: center;
+    border: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 11px;
+    color: #ffffff;
+    background-color: #af9d45;
+}
+
+.year {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 40px;
+    background-color: rgba(0, 0, 0, 0.253);
+    border-radius: 5px;
+    padding: 10px;
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.6);
+    box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.6);
+}
+
+.box p {
+    display: flex;
+    margin: 0px;
+    margin-left: 5px;
+}
+
+.box {
+    display: flex;
+}
+
+h3 {
+    margin-left: 6px;
+}
+
+.graf {
+   /* width: 50%; */
+    position: fixed;
+    top: 130px;
+    left: 65%;
+    right: 10%;
+    bottom: 380px;
+    width: 500px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.253);
+    border-radius: 5px;
+    color: white;
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.6);
+    box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.6);
+
+}
+
+.prikaz {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#doughnut-chart {
+    display: inline;
+}

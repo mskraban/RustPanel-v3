@@ -1,0 +1,39 @@
+body {
+    background-color: #2d2d0b;
+    background-image: url(../img/noise.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.row {
+   width: 80%;
+   margin: auto;
+   margin-top: 100px;
+   flex-direction: row;
+   justify-content: center;
+}
+
+.naslov {
+    font-size: 3em;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.list-group-item.active{
+    background-color: #3d4039;
+    border-color: #000000;
+}
+
+.list-group-item {
+    background-color: #2d2a0a;
+    border-color: #000000;
+}
+
+.list-group-item-action {
+    color: #dcdcdc;
+}
+
+.mb-1 img {
+height: 70px;
+}

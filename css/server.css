@@ -1,0 +1,57 @@
+body {
+    background-image: url(../img/noise.png);
+    background-color: #3e4054;
+}
+
+.custom {
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2rem;
+    color: white;
+    height: 200px;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+}
+
+.card-body-icon {
+    float: right;
+}
+
+.card {
+    -webkit-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
+    background-image: url(../img/pattern.png);
+}
+
+.mr-5 {
+    font-weight: 600;
+    font-size: 3.4rem;
+}
+
+.mr-6 {
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 55px;
+}
+
+.bg-info {
+    background-color: #6a6464!important;
+}
+
+.row:nth-of-type(2) {
+    height: 100px;
+    margin-top: 30px;
+}
+
+.chart-frame {
+    height: 400px;
+}
+
+.font-custom {
+    font-size: 2rem;
+}
